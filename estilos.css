@@ -14,20 +14,21 @@ body {
     padding: 20px;
 }
 
-/* Contenedor flexible y responsivo */
+/* Contenedor flexible*/
 .form-container {
     background: #ffffff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px; /* Evita que en PC se vea gigante */
+    max-width: 500px;
 }
 
 h2 {
     margin-bottom: 20px;
-    color: #333;
     text-align: center;
+    color: #080716;
+
 }
 
 label {
@@ -43,13 +44,13 @@ input {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px; /* Evita el zoom automático molesto en iOS */
+    font-size: 16px;
 }
 
 button {
     width: 100%;
     padding: 12px;
-    background-color: #25D366; /* Verde WhatsApp */
+    background-color: #25D366;
     color: white;
     border: none;
     border-radius: 4px;
@@ -59,13 +60,23 @@ button {
     transition: background 0.3s ease;
 }
 
-button:hover {
-    background-color: #128C7E;
+
+button {
+    background-color: #f7a800; /* Amarillo UNID */
+    color: #080716; /* Letras azul oscuro */
 }
 
-/* Ajustes para pantallas muy pequeñas (Celulares antiguos) */
+h2 {
+    color: #080716; /* Azul oscuro para el título */
+}
+
 @media (max-width: 480px) {
     .form-container {
         padding: 20px;
     }
+}
+
+#logo{
+    height: auto;
+    max-width: 30%;
 }
