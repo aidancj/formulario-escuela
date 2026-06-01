@@ -1,9 +1,8 @@
 document.getElementById('whatsappForm').addEventListener('submit', function(e) {
     e.preventDefault(); 
 
-    // 1. AQUÍ CONFIGURAS EL NÚMERO DE LOS ADMINISTRADORES
-    // Pon el código 52 y luego los 10 dígitos del celular. (Sin el signo + ni espacios)
-    const numeroAdministracion = "7831159516"; 
+    // Agregar 52 y el número correspondiente.
+    const numeroAdministracion = "527831159516"; 
 
     // 2. Capturar solo lo que escribió la persona
     const nombre = document.getElementById('name').value.trim();
